@@ -1,0 +1,9 @@
+build_kit:
+  name: python3
+  version: latest
+outbound_topics:
+  - name: OUTPUT_MATRIX
+    message_type: make87_messages.tensor.matrix_44.Matrix44
+peripheral_requirements:
+  - name: GPU
+    peripheral_type: GPU
